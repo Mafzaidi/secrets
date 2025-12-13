@@ -1,6 +1,6 @@
 keys:
   - &age age1zepgztvuxsysncygjteppy7jsdglmalfvx48p4ten06ndaycfs3qsgt3m9
 creation_rules:
-  - path_regex: apps/.*/overlays/.*/*secrets.*\.ya?ml
+  - path_regex: apps/.*/overlays/.*/secret.*\.ya?ml
     encrypted_regex: '^(data|stringData)$'
     age: *age
